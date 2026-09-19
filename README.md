@@ -28,7 +28,7 @@ npm run dev
 
 - [x] 00. 초기 셋팅
 - [x] 01. 기본 — `useForm` / `register` / `handleSubmit`
-- [ ] 02. 검증과 에러 — 내장 규칙, `formState.errors`, `mode`
+- [x] 02. 검증과 에러 — 내장 규칙, `formState.errors`, `mode`
 - [ ] 03. 값 다루기 — `defaultValues` / `watch` / `setValue` / `reset`
 - [ ] 04. 스키마 검증 — zod + `zodResolver`
 - [ ] 05. `Controller` / `useController` — 외부 UI 컴포넌트 연결

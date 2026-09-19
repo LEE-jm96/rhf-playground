@@ -1,6 +1,7 @@
 import type { ComponentType } from 'react'
 import Step00Setup from './Step00Setup'
 import Step01Basic from './Step01Basic'
+import Step02Validation from './Step02Validation'
 
 export type Step = {
   id: string
@@ -12,4 +13,5 @@ export type Step = {
 export const steps: Step[] = [
   { id: '00', title: '초기 셋팅 확인', component: Step00Setup },
   { id: '01', title: '기본: register / handleSubmit', component: Step01Basic },
+  { id: '02', title: '검증과 에러 / mode', component: Step02Validation },
 ]
