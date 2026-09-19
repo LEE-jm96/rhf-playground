@@ -1,0 +1,68 @@
+:root {
+  font-family: system-ui, 'Noto Sans KR', sans-serif;
+  font-size: 14px;
+  color: #1a1a1a;
+  background: #fafafa;
+}
+
+body {
+  margin: 0;
+}
+
+.layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+nav {
+  width: 220px;
+  padding: 16px;
+  border-right: 1px solid #e5e5e5;
+  background: #fff;
+}
+
+nav h1 {
+  font-size: 16px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav button {
+  width: 100%;
+  padding: 8px;
+  text-align: left;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+nav button.active {
+  background: #eef3ff;
+  font-weight: bold;
+}
+
+main {
+  flex: 1;
+  padding: 24px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 400px;
+}
+
+input,
+select,
+textarea {
+  padding: 6px 8px;
+}
+
+.error {
+  color: #d32f2f;
+  font-size: 12px;
+}
