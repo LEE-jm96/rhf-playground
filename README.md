@@ -30,7 +30,7 @@ npm run dev
 - [x] 01. 기본 — `useForm` / `register` / `handleSubmit`
 - [x] 02. 검증과 에러 — 내장 규칙, `formState.errors`, `mode`
 - [x] 03. 값 다루기 — `defaultValues` / `watch` / `setValue` / `reset`
-- [ ] 04. 스키마 검증 — zod + `zodResolver`
+- [x] 04. 스키마 검증 — zod + `zodResolver`
 - [ ] 05. `Controller` / `useController` — 외부 UI 컴포넌트 연결
 - [ ] 06. `useFieldArray` — 동적 행
 - [ ] 07. `FormProvider` / `useFormContext` — 큰 폼 쪼개기
