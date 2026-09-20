@@ -24,6 +24,10 @@ npm run dev
 | zod | 4 |
 | @hookform/resolvers | 5 |
 
+## 단계별 정리
+
+각 단계의 핵심 정리는 [docs/](docs/README.md) 참고.
+
 ## 커리큘럼
 
 - [x] 00. 초기 셋팅
